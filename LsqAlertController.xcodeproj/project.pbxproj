@@ -12,6 +12,7 @@
 		FBD2C78D1F73453200D93DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD2C78B1F73453200D93DD4 /* Main.storyboard */; };
 		FBD2C78F1F73453200D93DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD2C78E1F73453200D93DD4 /* Assets.xcassets */; };
 		FBD2C7921F73453200D93DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD2C7901F73453200D93DD4 /* LaunchScreen.storyboard */; };
+		FBD2C79F1F73B1A600D93DD4 /* LsqAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD2C79E1F73B1A600D93DD4 /* LsqAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FBD2C78E1F73453200D93DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD2C7911F73453200D93DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD2C7931F73453200D93DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD2C79E1F73B1A600D93DD4 /* LsqAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LsqAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				FBD2C7871F73453200D93DD4 /* AppDelegate.swift */,
+				FBD2C79E1F73B1A600D93DD4 /* LsqAlertController.swift */,
 				FBD2C7891F73453200D93DD4 /* ViewController.swift */,
 				FBD2C78B1F73453200D93DD4 /* Main.storyboard */,
 				FBD2C78E1F73453200D93DD4 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				FBD2C78A1F73453200D93DD4 /* ViewController.swift in Sources */,
 				FBD2C7881F73453200D93DD4 /* AppDelegate.swift in Sources */,
+				FBD2C79F1F73B1A600D93DD4 /* LsqAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				FBD2C7981F73453200D93DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
